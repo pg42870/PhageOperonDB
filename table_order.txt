@@ -1,0 +1,8 @@
+References_query.txt
+Operon_query.txt
+Organism_query.txt
+Gene_query.txt
+Promoter_query.txt
+Terminator_query.txt
+Organism_has_Operon_query.txt
+Organism_has_Gene_query.txt

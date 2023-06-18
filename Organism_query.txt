@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS PhageOperonDB.Organism (
+    RefSeq VARCHAR(11) NOT NULL,
+    Organism VARCHAR(45) NOT NULL,
+    idReferences INT NULL,
+    FOREIGN KEY(idReferences) REFERENCES PhageOperonDB.References (id),
+    PRIMARY KEY (RefSeq)
+)

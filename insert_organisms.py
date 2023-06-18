@@ -1,0 +1,2 @@
+insert_organisms='INSERT INTO PhageOperonDB.Organism (RefSeq, Organism) VALUES (%s, %s)'
+organism_records= [('NC_000929','Entereobacteria phage Mu '),('NC_001604','Enterobacteria phage T7'),('NC_001416','Enterobacteria phage lambda'),('NC_002371','Salmonella phage P22'),]

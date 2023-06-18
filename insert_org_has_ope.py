@@ -1,0 +1,2 @@
+insert_org_has_ope ='INSERT INTO PhageOperonDB.Organism_has_Operon (RefSeq, Operon_id) VALUES (%s, %s)'
+org_has_ope_records = [("NC_000929",1),("NC_000929",2),("NC_000929",3),("NC_000929",4),("NC_000929",5),("NC_000929",6),("NC_001604",7),("NC_001416",8),("NC_001416",9),("NC_001416",10),("NC_001416",11),("NC_002371",12),("NC_002371",13),]
