@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS PhageOperonDB.Terminator (
+    id INT NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(45) NULL,
+    Position VARCHAR(45) NULL,
+    Sequence VARCHAR(500) NULL,
+    Operon_id INT NULL,
+    idReferences INT NULL,
+    FOREIGN KEY(Operon_id) REFERENCES PhageOperonDB.Operon (id),
+    FOREIGN KEY(idReferences) REFERENCES PhageOperonDB.References (id),
+    PRIMARY KEY (id)
+)
