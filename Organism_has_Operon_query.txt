@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS Organism_has_Operon (
-    RefSeq VARCHAR(11) NOT NULL,
-    Operon_id INT NOT NULL,
-    FOREIGN KEY(RefSeq) REFERENCES PhageOperonDB.Organism (RefSeq),
-    FOREIGN KEY(Operon_id) REFERENCES PhageOperonDB.Operon (id),
-    PRIMARY KEY(RefSeq, Operon_id)
-)
-
